@@ -1,4 +1,4 @@
-FEE 231 University of Nairobi
+FEE231 University of Nairobi
 Electrical and Electronics Engineering (EEE)
 2022 2.1
 
