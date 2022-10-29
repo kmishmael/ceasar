@@ -18,15 +18,20 @@ int main(int argc, char *argv[])
     string plaintext;
 
     // 2: ensure that the right number of command line arguments are entered
-    // If the wrong number of arguments are entered exit by returning 3.
-    // If the right number are entered assign k the appropriate value
+    // If the wrong number of arguments are entered, we will output that one argument
+    // was expected. Then the program would terminate.
+    // If the right number are entered, assign k the appropriate value and the program continue
+    // as expected.
 
     if (argc != 2)
     {
+        // Wrong number of arguments.
         cout << "One argument expected!";
     }
     else
     {
+
+        // Right number of arguments(1).
 
         k = atoi(argv[1]);
 
